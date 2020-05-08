@@ -92,6 +92,7 @@ function mapFeatures(earthquakeData) {
 
   // Adding legend 
   // https://stackoverflow.com/questions/59453642/how-to-add-legend-in-leaflet-map
+  // https://www.igismap.com/legend-in-leafletjs-map-with-topojson/ <- this one primarily use and I also copy extra codes from this site to my css
   
   var legend = L.control({position: 'bottomright'});
 
