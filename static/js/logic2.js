@@ -22,7 +22,7 @@ function mapFeatures(earthquakeData) {
   // color notes (0-Aqua, 1-yellow, 2-gold, 3-coral, 4-red, 5-chrimson, 6-Dark Magenta)
   // https://www.w3schools.com/tags/ref_colornames.asp color guide 
   function magnitudeColor(mag) {
-    return  mag > 6 ? "#*B008B"  : 
+    return  mag > 6 ? "#8B008B"  : 
             mag > 5 ? "#DC143C" : 
             mag > 4 ? "#FF0000" :
             mag > 3 ? "#FF7F50" : 
